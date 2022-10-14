@@ -26,11 +26,11 @@ body {
   align-items: center;
   flex-direction: row-reverse;
   height: calc(100vh - 1px);
+  width: 100%;
 }
 .wrapper {
-  width: 100%;
+  width: 500px;
   padding: 4rem;
-  max-width: 500px;
   background: var(--Dark-desaturated-blue);
   border-radius: 0.625rem 0 0 0.625rem;
 }
@@ -47,7 +47,7 @@ body {
   url('/images/image-header-mobile.jpg');
   background-size: cover;
   width: 340px;
-  height: 250px;
+  height: 260px;
   background-repeat: no-repeat;
   border-radius: 0.625rem 0.625rem 0 0;
   display: none;

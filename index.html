@@ -10,46 +10,46 @@
 <body>
   
   <main class="container">
-    <section class="img-desktop"></section>
-    <section class="img-mobile"></section>
-    <section class="wrapper">
+    <picture class="card image">
+      <source media="(min-width: 768px)" srcset="/images/image-header-desktop.jpg">
+      <img class="mobile-image" src="/images/image-header-mobile.jpg" alt="">
+    </picture>
+    <section class="card info">
       <h1>Get <span>insights</span> that help your business grow.</h1>
-      <p>Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.</p>
-      <section class="label">
+      <p class="intro">Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.</p>
         <ul class="list">
           <li>
-            <section class="total">
-              <h3>10k+</h3>
-            </section>
-            <section class="description">
+            <div class="total">
+              <p>10k+</p>
+            </div>
+            <div class="description">
               <p>companies</p>
-            </section>
+            </div>
           </li>
           <li>
-            <section class="total">
-              <h3>314</h3>
-            </section>
-            <section class="description">
+            <div class="total">
+              <p>314</p>
+            </div>
+            <div class="description">
               <p>templates</p>
-            </section>
+            </div>
           </li>
           <li>
-            <section class="total">
-              <h3>12m+</h3>
-            </section>
-            <section class="description">
+            <div class="total">
+              <p>12m+</p>
+            </div>
+            <div class="description">
               <p>queries</p>
-            </section>
+            </div>
           </li>
         </ul>
-      </section>
     </section>
   </main>
   
-  <footer class="attribution">
+  <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Jonathan Goboli</a>.
-  </footer>
+  </div>
 
 </body>
 </html>
